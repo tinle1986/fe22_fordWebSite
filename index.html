@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ford Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav
+            class="navbar my-container m-auto fixed-top navbar-expand-sm myNavBar justify-content-between d-flex align-items-center">
+            <div class="leftNav d-flex">
+                <a href="#" class="nav-brand">
+                    <img src="./img/ford_logo.png" alt="">
+                </a>
+
+                <!-- main menu -->
+                <div class="navbar-nav d-flex">
+                    <!-- Nav pills -->
+                    <ul class="nav nav-pills d-flex align-items-center justify-content-between">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#home">Vehicles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#menu1">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#menu2">Finance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#menu2">Owner</a>
+                        </li> -->
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Vehicles
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Shop
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Finance
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Owner
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <!-- end of main  menu -->
+            </div>
+            <div class="rightNav">
+                <div class="navbar-nav d-flex">
+                    <!-- Nav pills -->
+                    <ul class="nav nav-pills d-flex align-items-center justify-content-between">
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Locate a Dealer</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                <i class="far fa-user-circle"></i>
+                                <span>Sign in</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="navbardrop">
+                                <i class="fas fa-search"></i>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                <i class="fas fa-globe-americas"></i>
+                                <span>English</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Link 1</a>
+                                <a class="dropdown-item" href="#">Link 2</a>
+                                <a class="dropdown-item" href="#">Link 3</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <!-- end of header -->
+
+    <!-- carousel -->
+    <section class="carousel my-container m-auto">
+        <div class="carousel-content d-flex align-items-center justify-content-center">
+            <div class="carousel-img"></div>
+            <div class="carousel-slogan">
+                <span>WE PUT OUR NAME ON IT</span>
+            </div>
+        </div>
+    </section>
+    <!-- end of carousel -->
+
+    <!-- somethingForEveryone -->
+    <section class="something my-container m-auto">
+        <div class="something-content d-flex align-items-center justify-content-center">
+            <div class="something-img"></div>
+            <div class="something-slogan">
+                <span class="d-block slogan-1">Something for Everyone</span>
+                <span class="d-block slogan-2">See our full lineup of vehicles and find the one that best fits
+                    you.</span>
+                <div class="d-flex justify-content-center">
+                    <a href="#">
+                        <span class="d-block">All Vehicles</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of somethingForEveryone -->
+
+    <!-- builtFordProud -->
+    <section class="built my-container m-auto">
+        <div class="built-content">
+            <div class="built-item1">
+                <h2>Built Ford Proud</h2>
+                <p>Born in Detroit, made in America and famous worldwide: We are the</p>
+                <p>Ford Motor Company.</p>
+            </div>
+            <div class="built-item2">
+                <div class="built-item2-cover">
+                    <a href="#" class="built-item2-link">
+                        <div class="built-item2-img"></div>
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end  of builtFordProud -->
+
+    <!-- letUs -->
+    <section class="letUs my-container m-auto">
+        <div class="letUs-cover">
+            <div class="letUs-content">
+                <a href="#" class="letUs-link">
+                    <div class="letUs-link-content">
+                        <h2>Let Us Sweeten the Deal</h2>
+                        <p>SEE ALL OFFERS&nbsp;&nbsp;   <span><i class="fas fa-chevron-right"></i></span></p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- end of letUs -->
+
+    <!-- makeItYours -->
+    <section class="makeIt">
+
+    </section>
+    <!-- end of makeItYours -->
+
+    <!-- whatsHappening -->
+    <section class="whats">
+
+    </section>
+    <!-- end of whatsHappening -->
+
+    <!-- airBag -->
+    <section class="airBag">
+
+    </section>
+    <!-- end of airBag -->
+
+    <!-- footer -->
+    <section class="footer">
+
+    </section>
+    <!-- end of footer -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

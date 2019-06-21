@@ -1,0 +1,34 @@
+.letUs-cover {
+    width: 100%;
+    height: 240.75px;
+    background-image: url(../img/letus.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 95px;
+    .letUs-content {
+        width: 100%;
+        height: 160.75px;
+        text-align: center;
+        .letUs-link {
+            display: block;
+            text-decoration: none;
+            .letUs-link-content {
+                display: flex;
+                flex-direction: column;
+                padding-top: 1rem;
+                color: white;
+                h2 {
+                    font-size: 2.5rem;
+                }
+                p {
+                    margin-top: 4rem;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}

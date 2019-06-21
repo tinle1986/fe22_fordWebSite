@@ -1,0 +1,57 @@
+.something-content {
+    width: 100%;
+    height: 686.25px;
+    position: relative;
+    .something-img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url(../img/cq5dam.web.1280.1280.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .something-slogan {
+        width: 1250px;
+        height: 606.25px;
+        color: black;
+        position: absolute;
+        z-index: 2;
+        text-align: center;
+        .slogan-1 {
+            font-size: 45px;
+            letter-spacing: 3px;
+        }
+        .slogan-2 {
+            font-size: 30px;
+            color: gray;
+        }
+        div {
+            margin-top: 25px;
+            width: 100%;
+            a {
+                width: 270px !important;
+                color: white;
+                font-size: 16px;
+                text-decoration: none;
+                span {
+                    width: 270px !important;
+                    height: 52px !important;
+                    border: 1px solid;
+                    padding: 15px 20px;
+                    background: #0276b3;
+                    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.15);
+                }
+            }
+        }
+        &:hover div a {
+            color: #0276b3;
+            span {
+                background: transparent;
+                &:hover {
+                    border-color: black;
+                }
+            }
+        }
+    }
+}
